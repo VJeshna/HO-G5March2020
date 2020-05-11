@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mastek.bankapp.dao.BankAccountDaoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.248 s <<< FAILURE! - in com.mastek.bankapp.dao.BankAccountDaoTest
+testFindByIdForNull  Time elapsed: 1.069 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected null  ==> expected: <null> but was: <BankAccount [accNo=0, accName=null, balance=0.0]>
+	at com.mastek.bankapp.dao.BankAccountDaoTest.testFindByIdForNull(BankAccountDaoTest.java:41)
+
+testDeleteTrue  Time elapsed: 3.903 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Must return true ==> expected: <true> but was: <false>
+	at com.mastek.bankapp.dao.BankAccountDaoTest.testDeleteTrue(BankAccountDaoTest.java:57)
+
