@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.mastek.spring.bankapp.dao.BankDaoTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.242 s <<< FAILURE! - in com.mastek.spring.bankapp.dao.BankDaoTest
-com.mastek.spring.bankapp.dao.BankDaoTest  Time elapsed: 0.242 s  <<< ERROR!
-org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mastek.spring.bankapp.dao.BankAccountDao' available
-	at com.mastek.spring.bankapp.dao.BankDaoTest.beforeAll(BankDaoTest.java:24)
-
