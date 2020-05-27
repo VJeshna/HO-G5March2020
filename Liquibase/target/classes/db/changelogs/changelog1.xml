@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd 
+   http://www.liquibase.org/xml/ns/dbchangelog 
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<!-- <preConditions onError="HALT" onErrorMessage="Custom_msg" onFail="HALT" onFailMessage="Invalid username">
+		<dbms type="postgresql"></dbms>
+		<runningAs username="liquibase"/>
+		<columnExists tableName="" columnName=""/>
+		<rowCount expectedRows="0" tableName=""/>
+	</preConditions> -->
+	
+	<property name="table_name1" value="Emp"/>
+	
+	<changeSet id="change_1" author="Vanita">
+		<createTable tableName="${table_name1}">
+			<column name="EmpId" type="int"></column>
+			<column name="EmpName" type="varchar(20)"></column>
+			<column name="Address" type="varchar(255)"></column>
+		</createTable>
+	</changeSet>
+
+</databaseChangeLog>
