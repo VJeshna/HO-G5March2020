@@ -6,7 +6,7 @@
 
   <display-name>Archetype Created Web Application</display-name>
   
-  <listener>
+  <!-- <listener>
     <listener-class>
          org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap
       </listener-class>
@@ -30,5 +30,5 @@
   <servlet-mapping>
     <servlet-name>resteasy-servlet</servlet-name>
     <url-pattern>/restapi/*</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
 </web-app>
