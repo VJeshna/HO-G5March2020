@@ -10,7 +10,7 @@
 		</encoder>
 	</appender>
 
-	<!-- Send debug messages to a file at "c:/jcg.log" -->
+	<!-- Send debug messages to a file at "d:/jcg.log" -->
 	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<!-- <file>d:/jcg.log</file> -->
 		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">

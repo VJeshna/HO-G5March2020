@@ -24,8 +24,8 @@ public class HelloWorldService implements IService<HelloWorld>{
 	@Override
 	public HelloWorld findById(int id) {
 		logger.info("finding the message by Id");
-		logger.error("error happened");
-		logger.debug("The message of the ID: {} is {}", id, list.get(0).getMessage());
+		//logger.error("error happened");
+		//logger.debug("The message of the ID: {} is {}", id, list.get(0).getMessage());
 		
 		for(HelloWorld hw : list)
 		{
