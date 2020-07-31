@@ -19,7 +19,8 @@ public class PartService implements IService<Part>{
     @Override
     public List<Part> findAll() {
         
-        return list;
+        System.out.println("blah!");
+    	return list;
     }
 
 
